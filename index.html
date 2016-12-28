@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Temerature converter</title>
+</head>
+<body>
+   <div class="container">
+      <form class="converter">
+         <div>
+            <p>Enter a temerature to be converted</p>
+            <input id="tempIn" type="text">
+         </div>
+         <div>
+            <p>Convert to Farenheit or Celcius?</p>
+            <input id="far" type="radio" name="temp">to Farenheit
+            <input id="cel" type="radio" name="temp">to Celcius
+            <br>
+            <button id ="converter" type="button" name="submit">Convert!</button>
+            <h2 class="conversion"></h2>
+         </div>
+            <button name="clear">Clear the form</button>
+         <div>
+            <h2 id="tempOut"></h2>
+         </div>
+
+      </form>
+
+   </div>
+   <script type="text/javascript" src="converter.js"></script>
+</body>
+</html>
