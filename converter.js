@@ -38,8 +38,7 @@ function toFahrenheit () {
 
 // This function should determine which conversion should
 // happen based on which radio button is selected.
-function determineConverter (e) {
-  // console.log("event", e);
+function determineConverter () {
   if (forCels.checked === true) {
    toCelsius();
   } else if (forFaren.checked === true) {
