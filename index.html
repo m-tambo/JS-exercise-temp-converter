@@ -2,23 +2,24 @@
 <html>
 <head>
    <title>Temerature converter</title>
+   <link rel="stylesheet" type="text/css" href="styling.css">
 </head>
 <body>
    <div class="container">
       <form class="converter">
          <div>
-            <p>Enter a temerature to be converted</p>
+            <p>Enter a temperature to be converted</p>
             <input id="tempIn" type="text">
          </div>
          <div>
-            <p>Convert to Farenheit or Celcius?</p>
+            <p>Convert to Farenheit or Celsius?</p>
             <input id="far" type="radio" name="temp">to Farenheit
-            <input id="cel" type="radio" name="temp">to Celcius
+            <input id="cel" type="radio" name="temp">to Celsius
             <br>
             <button id ="converter" type="button" name="submit">Convert!</button>
             <h2 class="conversion"></h2>
          </div>
-            <button name="clear">Clear the form</button>
+            <button id="clear">Clear the form</button>
          <div>
             <h2 id="tempOut"></h2>
          </div>
